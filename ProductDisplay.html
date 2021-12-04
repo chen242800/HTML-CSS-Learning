@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: lightgrey;
+        }
+        
+        .box {
+            height: 300px;
+            width: 200px;
+            margin: 30px auto;
+            background-color: white;
+        }
+        
+        .box img {
+            /* image‘s width = box width */
+            width: 100%;
+        }
+        
+        .review {
+            font-size: 14px;
+            height: 70px;
+            margin-top: 15px;
+            padding: 0 10px;
+        }
+        
+        .rate p {
+            display: inline-block;
+            font-size: 12px;
+            color: darkgray;
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+        }
+        
+        .rate img {
+            width: 50%;
+            padding-left: 10px;
+            /* img in the middle */
+            vertical-align: middle;
+        }
+        
+        .info {
+            font-size: 14px;
+            margin-top: 5px;
+            padding-left: 10px;
+        }
+        
+        .info h4 {
+            display: inline-block;
+        }
+        
+        .info em {
+            font-style: normal;
+            margin: 0 6px 0 15px;
+        }
+        
+        .info span {
+            color: orangered;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="images/img.jpg" alt="">
+        <div class="review">
+            <p>I was about to buy a Bose soundbar as a birthday gift for my girlfriend. a little research
+            </p>
+        </div>
+        <div class="rate">
+            <img src="images/star.png" alt="">
+            <p>76 ratings</p>
+
+        </div>
+
+        <div class="info">
+            <h4>Bose earpods</h4>
+            <EM>|</EM>
+            <span>$99</span>
+        </div>
+    </div>
+</body>
+
+</html>
