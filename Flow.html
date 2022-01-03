@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            width: 1200px;
+            height: 460px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        
+        .left {
+            float: left;
+            width: 230px;
+            height: 460px;
+            background-color: purple;
+        }
+        
+        .right {
+            float: left;
+            width: 970px;
+            height: 460px;
+            background-color: skyblue;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .box2 {
+            width: 1226px;
+            height: 285px;
+            background-color: lightgrey;
+            margin: 0 auto;
+        }
+        
+        .box2 li {
+            width: 296px;
+            height: 285px;
+            background-color: ivory;
+            float: left;
+            margin-right: 14px;
+        }
+        /* 这里必须写 .box .last 要注意权重的问题  20 */
+        
+        .box2 .last {
+            margin-right: 0;
+        }
+        
+        .blank {
+            height: 50px;
+        }
+        
+        .box3 {
+            width: 1226px;
+            height: 615px;
+            background-color: lightgrey;
+            margin: 0 auto;
+        }
+        
+        .left3 {
+            width: 234px;
+            height: 615px;
+            float: left;
+            background-color: purple;
+        }
+        
+        .right3 {
+            width: 992px;
+            height: 615px;
+            float: left;
+        }
+        
+        .box3 li {
+            width: 234px;
+            height: 300px;
+            margin-left: 14px;
+            float: left;
+            background-color: red;
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+
+    <div class="blank">
+    </div>
+
+    <ul class="box2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="last">4</li>
+    </ul>
+
+    <div class="blank">
+    </div>
+    <div class="box3">
+        <div class="left3"></div>
+
+        <ul class="right3">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
